@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "581766204267",
+    "project_id": "messenger-chat-77580",
+    "storage_bucket": "messenger-chat-77580.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581766204267:android:cd3d51e161c50c6f6c9a2e",
+        "android_client_info": {
+          "package_name": "com.example.firebasedatabase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2kVNyZV3c511oOUDHcJGUZttOYzXSywY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

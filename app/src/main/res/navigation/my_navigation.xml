@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_navigation"
+    app:startDestination="@id/fragmentRegister">
+
+    <fragment
+        android:id="@+id/fragmentRegister"
+        android:name="com.example.firebasedatabase.fragment.FragmentRegister"
+        android:label="FragmentRegister"
+        tools:layout="@layout/register_fragment">
+
+        <action
+            android:id="@+id/openChatPage"
+            app:destination="@id/fragmentChat"
+            app:popUpTo="@id/fragmentRegister"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentChat"
+        android:name="com.example.firebasedatabase.fragment.FragmentChat"
+        android:label="FragmentChat"
+        tools:layout="@layout/chat_fragment" />
+</navigation>
